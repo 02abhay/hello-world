@@ -1,0 +1,21 @@
+pip install git
+
+git config --global user.name "yaourname"
+
+git config --global user.email "youremail@gmail.com"
+
+git init
+
+git status
+
+git add -A
+
+git commit -m "initial commit"
+
+#then create repository in github and copy the https link address ...
+
+
+git remote add origin https.linkaddress
+
+git push -u origin master
+
